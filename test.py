@@ -9,6 +9,17 @@ Implements:
   - Role-based menu: Student, Faculty, HoD
 """
 
+"""
+import hashlib
+import socket
+from datetime import datetime
+
+from Crypto.Cipher import DES
+from Crypto.PublicKey import RSA
+from Crypto.Signature import pkcs1_15
+from Crypto.Hash import SHA256
+"""
+
 import hashlib
 import datetime
 from Crypto.Cipher import DES
